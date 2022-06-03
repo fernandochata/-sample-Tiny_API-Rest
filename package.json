@@ -1,15 +1,14 @@
 {
-  "name": "sample4",
+  "name": "sample",
   "version": "1.0.0",
-  "description": "",
+  "description": "sample of api rest",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Fernando Chata",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
