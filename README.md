@@ -9,6 +9,10 @@ Para poder usarlo se debe tener
 
 Desde una terminal situado en la raiz del repositorio
 ```
+npm start
+```
+o la version de desarrollador
+```
 npm run dev
 ```
 
