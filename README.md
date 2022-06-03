@@ -5,7 +5,7 @@ Ejemplo de API Rest
 -----
 Para poder usarlo se debe tener
 - instalado nodeJS
-- mongodb instalado en el puerto por defecto (27017)
+- tener una iniciada una instancia de mongodb con su puerto por defecto (27017)
 - el puerto 3000 del localhost libre
 -----
 - Clonar Repositorio
@@ -14,7 +14,7 @@ Para poder usarlo se debe tener
 npm install
 npm start
 ```
-o la version de desarrollador
+version de desarrollador
 ```
 npm run dev
 ```
