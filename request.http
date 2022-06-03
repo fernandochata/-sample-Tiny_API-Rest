@@ -1,0 +1,26 @@
+###
+Get http://localhost:3000/api/v1/
+
+###
+Get http://localhost:3000/api/v1/
+
+###
+Post http://localhost:3000/api/v1/
+Content-Type: application/json
+
+{
+  "name": "test",
+  "email": "me@mail.com",
+  "password": "123456"
+}
+
+###
+Put http://localhost:3000/api/v1/
+Content-Type: application/json
+
+{
+    "name": "fernando"
+}
+
+###
+Delete http://localhost:3000/api/v1/
