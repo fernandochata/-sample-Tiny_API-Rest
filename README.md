@@ -3,9 +3,10 @@
 Ejemplo de API Rest
 
 -----
-Para poder usarlo se debe tener
-- mongodb instalado en el puerto por defecto (27017)
-- el puerto 3000 del localhost libre
+Para poder usarlo se necesitan dos variables de entorno
+
+MONGODB_URI (de la instancia de mondb)
+PORT (un puerto libre)
 
 Desde una terminal situado en la raiz del repositorio
 ```

@@ -14,15 +14,16 @@ export default {
         return res.json(user);
     },
     async update(req, res) {
-        const user = await User.findByIdAndUpdate(req.params.id, req.body, {
-            new: true
-        });
+        const user = await User.findByIdAndUpdate(req.params.id, req.body, { new: true });
         return res.json(user);
     },
     async destroy(req, res) {
-        await User.findByIdAndRemove(req.params.id);
-        return res.json({
-            message: "User deleted"
-        });
+        const user = await User.findByIdAndRemove(req.params.id);
+        return res.json(user);
     }
 }
+
+
+
+
+
