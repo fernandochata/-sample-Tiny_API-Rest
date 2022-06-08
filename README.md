@@ -1,4 +1,4 @@
-# SampleTiny_API-Rest
+# API-Rest [Tiny]
 
 Ejemplo de API Rest
 
@@ -10,10 +10,14 @@ PORT (un puerto libre)
 
 Desde una terminal situado en la raiz del repositorio
 ```
+npm install
 npm start
 ```
-o la version de desarrollador
+version de desarrollador
 ```
 npm run dev
 ```
+
+Entonces quedaran habilitadas las peticiones GET POST PUT DELETE desde
+**localhost:3000**
 
